@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learning Bootstrap v5 with Sass</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fontawesome.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a46a38890c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--//////////////////////////////////////////////////////////////////
     Start the NavBar Section
     ///////////////////////////////////////////////////////////////////-->
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="logo image" style="height: 3rem;">
@@ -56,23 +56,42 @@
     ///////////////////////////////////////////////////////////////////-->
     <section id="home" class="intro-section">
         <div class="container">
-          <div class="row align-items-center text-black">
-            <!-- START THE CONTENT FOR THE INTRO  -->
-            <div class="col-md-6 intros text-start">
-              <h1 class="display-2">
-                <span class="display-2--intro">The name's Bond, James Bond</span>
-                <span class="display-2--description">
-                  this is a multi-purpose responsive layout created with bootstrap v5. 
-                  (here your can place your description text)
-                </span>
-              </h1>
-              <button type="button" class="rounded-pill btn-rounded">Get in Touch
-                <span><i class="fas fa-arrow-right"></i></span>
-              </button>
+            <div class="row align-items-center text-white">
+                <!-- Start the content for the video-->
+                <div class="col-md-6 intros">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">
+                            The name's Bond, James Bond
+                        </span>
+                        <span class="display-2--description lh-base">
+                            this is a multi-purpose responsive layout created with bootstrap v5.
+                        </span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded">Get in Touch
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                    </button>
+                </div>
+                <!-- Start the content for the video-->
+                <div class="col-md-6 intros text-end">
+                    <div class="video-box">
+                        <img src="images/arts/gold.png" alt="video illustration" class="image-fluid">
+                        <a href="#" class="position-absolute top-50 start-50 translate-middle">
+                            <span>
+                                <!--
+                                    <i class="fas fa-play-circle"></i>
+                                -->
+                            </span>
+                            <span class="border-animation border-animation--border-1"></span>
+                            <span class="border-animation border-animation--border-2"></span>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L34.3,176C68.6,192,137,224,206,224C274.3,224,343,192,411,165.3C480,139,549,117,617,128C685.7,139,754,181,823,165.3C891.4,149,960,75,1029,64C1097.1,53,1166,107,1234,138.7C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>    
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
