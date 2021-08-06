@@ -10869,6 +10869,9 @@ textarea.form-control-lg {
   font-size: 6rem;
   color: #967c42;
 }
+.intros img {
+  max-width: 100%;
+}
 
 .border-animation {
   position: absolute;
