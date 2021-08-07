@@ -10837,6 +10837,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(150, 124, 66, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(150, 124, 66, 0.95));
 }
@@ -11007,7 +11011,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 .portfolio-box .portfolio-info {
-  background-color: rgba(150, 124, 66, 0.75);
+  background-color: rgba(194, 169, 114, 0.75);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -11039,6 +11043,44 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 1000ms;
   transition-property: all;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
